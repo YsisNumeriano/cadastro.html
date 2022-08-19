@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-login">
+           <img src="autentication.svg" class="left-image" alt="autenticaçao">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Cadastro</h1>
+                <form>
+                    <div class="box-input">
+                        <label>Nome:<span class="required-field">*</span> </label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Nome" minlength="1"
+                            maxlength="30" required>
+                    </div>
+                    <div class="box-input">
+                        <label>E-mail:<span class="required-field">*</span> </label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Email" minlength="1"
+                            maxlength="30" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="purchase_date">
+                            Data de Nascimento:
+                            <span class="required-field"> *</span> </label>
+                        <input type="date" name="purchase_date" id="purchase_date" class="block" required>
+                    </div>
+                    <div class="residencia_box">
+                        <p>Residência:</p>
+                        <ul class="residencia_list">
+                            <li>
+                                <input type="checkbox" id="Casa" name="residencia[]" value="casa">
+                                <label for="casa">Casa </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="Apartamento" name="residencia[]" value="residencia">
+                                <label for="residencia">Apartamento</label>
+                            </li>
+                    </div>
+
+                    <button class="btnSalvar">Salvar</button>
+                    <button class="btnLimpar">Limpar</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+   
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
